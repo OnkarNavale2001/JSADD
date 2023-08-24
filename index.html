@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container-fluid bg-warning d-flex p-3 ">
+        <input type="text" class="w-50 form-control ms-4" id="search" placeholder="Search" >
+    
+        <div class="ms-5 ps-5 "><i class="fa-solid fa-cart-shopping fs-1" id="displayblock"><span class="position-absolute size top-15 start-80 translate-middle badge rounded-circle bg-danger fs-6" id="omkar">0</span></i></div>0
+        <div id="emptyyy"></div>
+    </div>
+    <div class="container-fluid  pt-2  mb-2 bg-dark">  
+        <button class="px-5  py-2" >Men's Wear</button><button class="px-5 py-2">Watches</button><button class="px-5 py-2">Footwear</button><button class="px-5 py-2">Kids Wear</button><button class="px-5 py-2">Girls Wear</button><button class="px-5 py-2">Mobiles</button> <button class="px-5 py-2">Bags </button> <button class="px-5 py-2">Fast delivery</button>
+    </div>
+    
+<button class="btn btn-warning ms-4 mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Filter</button>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="">
+          <h4>Price</h4>
+          <input type="checkbox" class="checkk"><span class="ms-3"> Under  &#8377 1000 </span > <br>
+          <input type="checkbox" class="checkk"><span class="ms-3"> &#8377 1000 - &#8377 5000</span > <br>
+          <input type="checkbox" class="checkk"><span class="ms-3"> &#8377 5000 - &#8377 15000 </span ><br>
+          <input type="checkbox" class="checkk"><span class="ms-3"> &#8377 15000 - &#8377 99900 </span ><br>
+       </div>
+       <div class="mt-3">
+          <h4>Sort price</h4>
+          <input type="checkbox" class="checkk"><span class="ms-3"> low price to high price</span > <br>
+          <input type="checkbox" class="checkk"><span class="ms-3"> high price to low price</span > <br>
+          <input type="checkbox" class="checkk"><span class="ms-3"> Ascending order</span > <br>
+          <input type="checkbox" class="checkk"><span class="ms-3"> Decending Order</span > <br>   
+       </div>
+     
+       <div class="mt-3">
+        <h4>Sort price</h4>
+        <input type="checkbox" class="checkk"><span class="ms-3">5<i class="fa fa-star ps-1 text-warning "></i> </span > <br>
+        <input type="checkbox" class="checkk"><span class="ms-3">4<i class="fa fa-star ps-1 text-warning "></i> </span > <br>
+        <input type="checkbox" class="checkk"><span class="ms-3">3<i class="fa fa-star ps-1 text-warning "></i></span > <br>
+        <input type="checkbox" class="checkk"><span class="ms-3">2<i class="fa fa-star ps-1 text-warning "></i> </span > <br>   
+     </div>
+      </div>
+    </div>
+    <p class="abc">Total Price: &#8377 <span class="xyz"></span></p>  
+    <div id="helloo" class="container-fluid ms-3  mt-5 row row-cols-1 row-cols-sm-2 row-cols-md-4"></div>  
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script src="second.js"></script>
+</html>
