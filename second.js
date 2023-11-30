@@ -47,7 +47,7 @@ function display(productsss) {
   productsss.map((p, i) => {
     let divv = document.createElement("div");
     let ratingss = '';
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < p.rating; i++) {
       ratingss+= '<i class="fa fa-star text-warning"></i>';
     }
     for (let i = p.rating; i < 5; i++) {
